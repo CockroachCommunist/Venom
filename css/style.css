@@ -108,6 +108,10 @@ header{
     display: flex;
 }
 
+.--lock{
+    overflow: hidden;
+}
+
 .col{
     flex-basis: 50%;
 }
@@ -328,3 +332,4 @@ img{
         column-count: 1;
     }
 }
+

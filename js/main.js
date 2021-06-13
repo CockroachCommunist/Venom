@@ -6,10 +6,12 @@ const col = document.querySelector('.trailer')
 menuButton.addEventListener("click", () => {
     menu.classList.add("is-active")
     menuCloseButton.classList.add("is-active")
+    document.body.classList.add('--lock')
 });
 menuCloseButton.addEventListener("click", () => {
     menu.classList.remove("is-active")
     menuCloseButton.classList.remove("is-active")
+    document.body.classList.remove('--lock')
 });
 
 
